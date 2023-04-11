@@ -9,3 +9,10 @@
     <p>Seleccionadas 50 años</a>.</p>
 </div>
 
+
+<ol>
+    @foreach (var item in Model)
+    {
+        <li>@item.Name</li>
+    }
+</ol>
